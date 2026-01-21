@@ -1,0 +1,1 @@
+/usr/bin/clang++ -DQT_QML_DEBUG -g CMakeFiles/BetaDecaySimulation.dir/main.cpp.o -o BetaDecaySimulation 

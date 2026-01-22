@@ -7,7 +7,7 @@ A comprehensive Geant4 simulation for studying single and double beta decay proc
 This simulation implements:
 - **Single Beta- Decay**: Sr-90 → Y-90 + e- + ν̄e (T1/2 = 28.8 years)
 - **Single Beta- Decay**: Y-90 → Zr-90 + e- + ν̄e (T1/2 = 64 hours)
-- **Double Beta Decay**: Ca-48 → Ti-48 + 2e- + 2ν̄e (T1/2 = 4.3×10^19 years)
+
 
 ## Features
 
@@ -171,7 +171,7 @@ Edit `src/PhysicsList.cc` to:
 2. Geant4 Physics Reference Manual
 3. Nuclear Data Tables for decay chains and half-lives
 
-## Author
+Premananda singh
 
 Created for studying beta decay processes in nuclear physics experiments.
 

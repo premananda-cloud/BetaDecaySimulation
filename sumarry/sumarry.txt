@@ -1,0 +1,7 @@
+Simulation summary
+
+This project implements a Geant4 simulation of single beta decay (β⁻) using the standard G4RadioactiveDecay process and electromagnetic physics. The simulation initializes correctly, runs stably, and produces physically consistent secondary particles, including beta electrons and de-excitation gamma rays. The setup is suitable for reliable data extraction such as electron energy spectra and deposited energy distributions.
+
+The simulation does not include double beta decay (ββ) or neutrinoless double beta decay (0νββ). These processes are not natively supported by Geant4 and would require custom physics generators. Accordingly, results from this simulation are limited to single beta decay only, and any discussion of ββ or 0νββ is purely theoretical or prospective.
+
+This version is considered production-ready and should not be modified during analysis to preserve reproducibility.

@@ -1,7 +1,0 @@
-/home/premananda/Documents/BetaDecaySimulation/build/CMakeFiles/BetaDecaySimulation.dir
-/home/premananda/Documents/BetaDecaySimulation/build/CMakeFiles/edit_cache.dir
-/home/premananda/Documents/BetaDecaySimulation/build/CMakeFiles/rebuild_cache.dir
-/home/premananda/Documents/BetaDecaySimulation/build/CMakeFiles/list_install_components.dir
-/home/premananda/Documents/BetaDecaySimulation/build/CMakeFiles/install.dir
-/home/premananda/Documents/BetaDecaySimulation/build/CMakeFiles/install/local.dir
-/home/premananda/Documents/BetaDecaySimulation/build/CMakeFiles/install/strip.dir

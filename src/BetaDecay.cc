@@ -1,4 +1,4 @@
-#include "../include/BetaDecay.h"
+#include "BetaDecay.hh"
 #include <iostream>
 #include <iomanip>
 #include <cmath>

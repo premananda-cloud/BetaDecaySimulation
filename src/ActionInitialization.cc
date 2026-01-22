@@ -2,7 +2,7 @@
 #include "ActionInitialization.hh"
 #include "RunAction.hh"
 #include "EventAction.hh"
-#include "BetaDecay.h"
+#include "BetaDecay.hh"
 
 ActionInitialization::ActionInitialization() {}
 
@@ -10,7 +10,7 @@ ActionInitialization::~ActionInitialization() {}
 
 void ActionInitialization::Build() const {
     // Create primary generator
-    BetaDecay* primaryGenerator = new BetaDecay();
+    BetaDecayPrimaryGenerator* primaryGenerator = new BetaDecayPrimaryGenerator();
     SetUserAction(primaryGenerator);
     
     // Create run action

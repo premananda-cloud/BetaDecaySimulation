@@ -1,5 +1,5 @@
-#ifndef BETADECAY_H
-#define BETADECAY_H
+#ifndef BETADECAY_HH
+#define BETADECAY_HH
 
 #include "G4VUserPrimaryGeneratorAction.hh"
 #include "G4ParticleGun.hh"

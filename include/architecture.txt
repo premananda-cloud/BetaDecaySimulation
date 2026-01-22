@@ -1,0 +1,20 @@
+BetaDecaySimulation/
+├── CMakeLists.txt
+├── README.md
+├── include/
+│   ├── DetectorConstruction.hh
+│   ├── PhysicsList.hh
+│   ├── PrimaryGeneratorAction.hh
+│   ├── RunAction.hh
+│   ├── EventAction.hh
+│   └── SteppingAction.hh
+├── src/
+│   ├── DetectorConstruction.cc
+│   ├── PhysicsList.cc
+│   ├── PrimaryGeneratorAction.cc
+│   ├── RunAction.cc
+│   ├── EventAction.cc
+│   └── SteppingAction.cc
+├── betadecay.cc (main program)
+├── run.mac (macro file for batch mode)
+└── vis.mac (visualization macro)

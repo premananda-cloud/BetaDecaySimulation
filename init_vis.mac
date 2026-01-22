@@ -1,0 +1,20 @@
+# init_vis.mac - Initialize visualization session
+/vis/open OGL
+/vis/drawVolume
+/vis/viewer/set/viewpointThetaPhi 45 45
+/vis/viewer/zoom 1.5
+/vis/viewer/set/style surface
+/vis/scene/add/trajectories smooth
+/vis/scene/add/hits
+/vis/scene/endOfEventAction accumulate
+
+# Add axes
+/vis/scene/add/axes 0 0 0 10 cm
+
+# Set colors
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
+
+# Refresh
+/vis/viewer/refresh

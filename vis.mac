@@ -1,0 +1,15 @@
+# vis.mac - Visualization macro
+/vis/open OGL
+/vis/drawVolume
+/vis/viewer/set/viewpointThetaPhi 45 45
+/vis/viewer/zoom 1.5
+/vis/viewer/set/style surface
+/vis/scene/add/trajectories smooth
+/vis/scene/add/hits
+/vis/scene/endOfEventAction accumulate
+
+# Add axes for reference
+/vis/scene/add/axes 0 0 0 10 cm
+
+# Refresh view
+/vis/viewer/refresh

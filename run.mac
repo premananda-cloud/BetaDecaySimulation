@@ -1,0 +1,26 @@
+# run.mac - Batch mode macro for Beta Decay Simulation
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+# Initialize visualization (even in batch mode, for geometry)
+/vis/scene/create
+/vis/sceneHandler/create OGL
+/vis/viewer/create
+
+# Set viewer parameters
+/vis/viewer/set/viewpointThetaPhi 45 45
+/vis/viewer/zoom 1.5
+/vis/viewer/set/style wireframe
+/vis/scene/add/trajectories smooth
+/vis/scene/add/hits
+
+# Update scene
+/vis/scene/notifyHandlers
+/vis/scene/endOfEventAction accumulate
+
+# Set number of events to run
+/run/beamOn 100
+
+# Exit after run
+/control/shell echo "Simulation complete! Output saved to beta_decay_output.txt"
